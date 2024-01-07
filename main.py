@@ -17,9 +17,9 @@ total_profit_loss = 0
 def get_near_price():
     ticker = exchange.fetch_ticker(symbol)
     return float(ticker['ask']) 
-R = 1.5 / get_near_price()   #CHANGE ALL 1.5 VALUES TO WHATEVER AMOUNT OF USDT YOU WANT TO USE IN EACH SELL/BUY
-BuyPrice = 1.5
-buy_amount = 1.5
+R = 4.0 / get_near_price()   #CHANGE ALL 1.5 VALUES TO WHATEVER AMOUNT OF USDT YOU WANT TO USE IN EACH SELL/BUY
+BuyPrice = 4.0
+buy_amount = 4.0
 
 # Initialize Phemex API
 exchange = ccxt.phemex({
@@ -38,8 +38,8 @@ def get_near_price():
     ticker = exchange.fetch_ticker(symbol)
     return float(ticker['ask'])  
 
-BuyPrice = 1.50
-buy_amount = 1.50
+BuyPrice = 4.0
+buy_amount = 4.0
 def place_buy_order():
     global binary, bought_price
     print("Placing buy order for NEAR...")
@@ -73,7 +73,7 @@ while True:
         if binary == 1:
             current_price = get_near_price()
             print('sell price point :', current_price)
-            if current_price >= bought_price + 0.008:
+            if current_price >= bought_price + 0.01:
                 balance = exchange.fetch_balance()
                 NEAR_available = balance['total']['NEAR']  
                 amnt = 1.5
