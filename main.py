@@ -76,7 +76,7 @@ while True:
             if current_price >= bought_price + 0.01:
                 balance = exchange.fetch_balance()
                 NEAR_available = balance['total']['NEAR']  
-                amnt = 1.5
+                amnt = 4.0
                 place_sell_order(amnt)
             else:
                 print("No sell order placed.")
