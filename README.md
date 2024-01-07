@@ -17,7 +17,7 @@ I recommend modifying this to fit your needs and standards, as this is my first 
        half of your USDT you deposited just to manage risk a bit easier
 7. Run the python code and monitor your profit and loss, and make any logic changes you need
 
-#Additional Info
+# Additional Info
   you may donate to fund anything I need for learning purposes at the USDT TRC20 address: TKB2Lb2Mrb5CLcUGzE4ds9z9M7CtVhghAd
   Phemex website: https://phemex.com
   API section URL: https://phemex.com/account/api-management
