@@ -73,7 +73,7 @@ while True:
         if binary == 1:
             current_price = get_near_price()
             print('sell price point :', current_price)
-            if current_price >= bought_price + 0.01:
+            if current_price >= bought_price + 0.06:
                 balance = exchange.fetch_balance()
                 NEAR_available = balance['total']['NEAR']  
                 amnt = 4.0
