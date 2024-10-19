@@ -18,6 +18,5 @@ I recommend modifying this to fit your needs and standards, as this is my first 
 7. Run the python code and monitor your profit and loss, and make any logic changes you need
 
 # Additional Info
-  you may donate to fund anything I need for learning purposes at the USDT TRC20 address: TKB2Lb2Mrb5CLcUGzE4ds9z9M7CtVhghAd
   Phemex website: https://phemex.com
   API section URL: https://phemex.com/account/api-management
